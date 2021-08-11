@@ -1,0 +1,31 @@
+{
+  "name": "book-keeping-app",
+  "version": "1.0.0",
+  "description": "a simple react application for bookkeping",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server/server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francisobed/book-keeping-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francisobed/book-keeping-app/issues"
+  },
+  "homepage": "https://github.com/francisobed/book-keeping-app#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.4"
+  }
+}
