@@ -3,7 +3,7 @@ const dotenv = require('dotenv')
 dotenv.config();
 
 const app = express();
-const port = 3000 || process.env.server_PORT;
+const port = 5000 || process.env.server_PORT;
 const error = require('../server/middlewares/errorMiddlewareHandler');
 // routes
 const usersRoute = require(`./routes/usersRoute`);
